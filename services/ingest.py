@@ -1,7 +1,7 @@
 import chromadb
 from sentence_transformers import SentenceTransformer
 from parser import parse_pdf
-import config
+import core.config as config
 
 # load embedding model
 model = SentenceTransformer(config.EMBED_MODEL)
