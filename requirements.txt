@@ -1,5 +1,5 @@
 pdfplumber
-chromadb
+chromadb>=1.5.4
 sentence-transformers
 langchain
 langchain_community
